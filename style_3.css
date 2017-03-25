@@ -1,0 +1,160 @@
+/*for desktop*/
+.col-1 {width: 49%;}
+.col-2 {width: 49.3%;}
+.col-3 {width: 25%;}
+.col-4 {width: 65%;}
+.col-5 {width: 65%;}
+.col-6 {width: 97.5%;}
+.col-7 {width: 40%;}
+.col-8 {width: 40%;}
+.col-9 {width: 97.5%;}
+.col-10 {width: 40%;}
+.col-11 {width: 40%;}
+.col-12 {width: 100%;}
+body{
+    font-family: Arial,Verdana, sans-serif, white;
+    margin:0;
+    padding:0;
+    background: #c5d5cb;
+    color:white;
+
+
+
+
+
+}
+p{color: white;}
+h1{
+    color: #fff;
+    text-align: center;
+    font-family: "Arial Black", Gadget, sans-serif;
+    border-style: dotted;
+
+    border-color:#e3e0cf;
+}
+
+
+.row{
+    margin:2px;
+
+
+
+
+
+}
+
+
+div.container{padding-top: 5px;}
+
+[class*='col-'] { /* This css rule applies to any element that has the string "col-" in its class*/
+    float: left;
+    min-height: 1px;
+    /*-- our gutter inside each cell around it's content, change the value to see how it works--*/
+    padding: 1px;
+}
+
+.col-1{border:dotted #e3e0cf 3px; float:left;}
+.col-2{border:dotted #e3e0cf 3px; float:right;}
+.col-3{border:dotted #e3e0cf 3px; float:left; margin-top : 20px;margin-left: 20px;}
+.col-4{border:dotted #e3e0cf 3px; float:left; margin-top:20px; margin-left:20px; height: 50%}
+.col-5{border:dotted #e3e0cf 3px; float:left; margin-top:20px; margin-left:20px; height: 50%}
+.col-6{border:dotted #e3e0cf 3px; float:left; margin-top:20px; margin-left:20px; height: 50%}
+.col-7{border:dotted #e3e0cf 3px; float:right;margin-left:10px; height: 50%}
+.col-8{border:dotted #e3e0cf 3px; float:left;margin-left:1px; height: 50%}
+.col-9{border:dotted #e3e0cf 3px; float:left;margin-left:20px; margin-top:20px;height: 50%}
+.col-10{border:dotted #e3e0cf 3px; float:left;margin-left:1px; height: 50%;}
+.col-11{border:dotted #e3e0cf  3px; float:right;margin-left:1px; height: 50%;}
+.container {
+    padding: 2px 16px;
+    margin: 7px;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+h1{
+    font-size:10px;
+
+}
+
+p.p1{text-align:center; color:white;}
+
+/*mobile phone */
+@media only screen and (max-width: 768px) {
+    [class*="col-"] {
+        width: 100%;
+    }}
+
+@media only screen and (min-width:768px) and (max-width:1024)
+{
+    [class*="col-"] {
+        width: 100%;
+    }
+
+}
+
+img{
+    width:20%;
+    height:10%;
+    float right;
+
+}
+
+nav ul{
+    list-style-type:none;
+    background-color: #e3e0cf;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color:white;
+
+
+
+
+
+}
+
+nav li{
+    font-family: 'Oswald', sans-serif;
+    font-size:1.5em;
+    line-height:40px;
+    height:40px;
+    padding-right: 50px;
+    border-bottom: 1px;
+    display:inline-block;
+    color:white;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    transition: .3s background-color;
+
+}
+
+
+.nav a:hover {
+    background-color: #9fa8a3;
+}
+
+.nav a.active {
+    background-color: #9fa8a3;
+    color: #444;
+    cursor: default;
+}
+
+p.p2{font-size: 20px; margin-left: 5px; text-align: center;color:white;}
+
+
+div.footer{
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+
+    font-size:.5em;
+    float:bottom;
+
+}
